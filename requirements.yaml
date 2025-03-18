@@ -9,8 +9,8 @@ dependencies:
   - jupyter=1.0.0
   - pip=23.3.1
   - python=3.9
-  - pytorch=2.6
   - pip:
+      - pytorch==2.6.0
       - datasets==2.18.0
       - einops==0.7.0
       - fsspec==2024.2.0
