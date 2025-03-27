@@ -51,8 +51,10 @@ In this repo, we provide:
 To get started, create a conda environment containing the required dependencies.
 
 ```bash
-conda env create -f requirements.yaml
-conda activate bd3lm
+conda create -n bd3lms python=3.9
+conda activate bd3lms
+pip3 install torch==2.6.0
+conda env update --file requirements.yaml
 ```
 
 Create the following directories to store saved models and slurm logs:
